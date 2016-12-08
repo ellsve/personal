@@ -1,7 +1,7 @@
 html,
 body {
-    max-height: 100%;
     margin: 0;
+    max-height: 100%;
 }
 
 body {
@@ -10,28 +10,28 @@ body {
 }
 
 .wrapper {
-    position: absolute;
-    display: flex;
-    justify-content: center;
     align-items: flex-end;
+    display: flex;
     height: 100%;
+    justify-content: center;
+    position: absolute;
     width: 100%;
 }
 
 .sections {
-    width: 100vw;
     height: 100vh;
+    width: 100vw;
 }
 
 .sectionOne {
-    top: 0;
-    display: flex;
     align-content: center;
-    position: absolute;
+    display: flex;
     justify-content: center;
+    position: absolute;
+    top: 0;
 }
 
-# background {
+#background {
     position: fixed;
     top: 50%;
     left: 50%;
