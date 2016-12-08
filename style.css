@@ -88,12 +88,14 @@ body {
 @media only screen and (max-device-width: 568px) {
     .textovervideo {
         position: fixed;
-        margin: 1em;
-        width: 30em;
+        width: 100%;
         text-align: center;
+        left: 0;
+        right: 0;
     }
     .textovervideo ul {
         font-size: 5vw;
+        background-color: red;
     }
     .textovervideo ul li {}
 }
