@@ -31,7 +31,8 @@ body {
     justify-content: center;
 }
 
-#background {
+#
+/*background {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -43,9 +44,10 @@ body {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     background: url(img/poster.png) no-repeat;
-    background-size: cover;
-}
+    background-size: cover;*/
 
+
+}
 .textovervideo {
     z-index: 21;
     position: absolute;
@@ -53,7 +55,6 @@ body {
     margin-right: auto;
     display: block;
 }
-
 .overlay {
     background-color: rgba(30, 30, 32, 0.87);
     height: 100%;
@@ -63,7 +64,6 @@ body {
     left: 0px;
     z-index: 20;
 }
-
 .textovervideo ul {
     list-style: none;
     color: white;
@@ -73,21 +73,19 @@ body {
     border-radius: 2px;
     border-style: solid;
     margin: 1em;
-    justify-content: center;
     padding-left: 1em;
     padding-right: 1em;
     font-size: 2em;
 }
-
 .textovervideo ul li {
     padding: auto;
     margin-right: 3em;
 }
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
     .textovervideo ul {
         font-size: 2em;
         position: relative;
     }
+    
     .textovervideo ul li {}
 }
