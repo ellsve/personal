@@ -91,6 +91,9 @@ body {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid #fff;
+    bottom: 15px;
+    position: fixed;
+    z-index: 50;
 }
 
 @media only screen and (max-device-width: 568px) {
