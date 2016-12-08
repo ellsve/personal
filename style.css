@@ -1,112 +1,119 @@
-html,
-body {
-    margin: 0;
-    max-height: 100%;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-    overflow: hidden;
-}
-
-.wrapper {
-    align-items: flex-end;
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    position: absolute;
-    width: 100%;
-}
-
-.sections {
-    height: 100vh;
-    width: 100vw;
-}
-
-.sectionOne {
-    align-content: center;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-}
-
-#background {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 1;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(img/poster.png) no-repeat;
-    background-size: cover;
-}
-
-.textovervideo {
-    z-index: 21;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    position: absolute;
-}
-
-.overlay {
-    background-color: rgba(30, 30, 32, 0.87);
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 20;
-}
-
-.textovervideo ul {
-    list-style: none;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    border-color: white;
-    border-radius: 2px;
-    border-style: solid;
-    margin: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-    font-size: 2em;
-}
-
-.textovervideo ul li {
-    padding: inherit;
-    margin-right: 3em;
-}
-
-.arrow-down {
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 20px solid #fff;
-    bottom: 15px;
-    position: fixed;
-    z-index: 50;
-}
-
-@media only screen and (max-device-width: 568px) {
-    .textovervideo {
-        position: fixed;
-        width: 100%;
-        text-align: center;
-        left: 0;
-        right: 0;
-    }
-    .textovervideo ul {
-        font-size: 5vw;
-        background-color: red;
-    }
-    .textovervideo ul li {}
-}
+                html,
+            body {
+                margin: 0;
+                max-height: 100%;
+            }
+            
+            body {
+                font-family: "Roboto", sans-serif;
+                overflow: hidden;
+            }
+            
+            .wrapper {
+                align-items: flex-end;
+                display: flex;
+                height: 100%;
+                justify-content: center;
+                position: absolute;
+                width: 100%;
+            }
+            
+            .sections {
+                height: 100vh;
+                width: 100vw;
+            }
+            
+            .sectionOne {
+                align-content: center;
+                display: flex;
+                justify-content: center;
+                position: absolute;
+                top: 0;
+            }
+            
+            #background {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                min-width: 100%;
+                min-height: 100%;
+                width: auto;
+                height: auto;
+                z-index: 1;
+                -webkit-transform: translateX(-50%) translateY(-50%);
+                -moz-transform: translateX(-50%) translateY(-50%);
+                -o-transform: translateX(-50%) translateY(-50%);
+                transform: translateX(-50%) translateY(-50%);
+                background: url(img/poster.png) no-repeat;
+                background-size: cover;
+            }
+            
+            .textovervideo {
+                z-index: 21;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                position: absolute;
+            }
+            
+            .overlay {
+                background-color: rgba(30, 30, 32, 0.87);
+                height: 100%;
+                width: 100%;
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                z-index: 20;
+            }
+            
+            .textovervideo ul {
+                list-style: none;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                border-color: white;
+                border-radius: 2px;
+                border-style: solid;
+                margin: 1em;
+                padding-left: 1em;
+                padding-right: 1em;
+                font-size: 2em;
+            }
+            
+            .textovervideo ul li {
+                padding: inherit;
+                margin-right: 3em;
+            }
+            
+            .arrow-down {
+                width: 0;
+                height: 0;
+                border-left: 20px solid transparent;
+                border-right: 20px solid transparent;
+                border-top: 20px solid #fff;
+                bottom: 15px;
+                position: fixed;
+                z-index: 50;
+            }
+            
+            @media only screen and (max-device-width: 568px) {
+                .textovervideo {
+                    position: fixed;
+                    width: 100%;
+                    text-align: center;
+                    left: 0;
+                    right: 0;
+                }
+                .textovervideo ul {
+                    font-size: 5vw;
+                }
+                .textovervideo ul li {}
+            }
+            
+            @media only screen and (max-device-width: 600px) and (max-device-height: 400px) {
+                .textovervideo {
+                    position: fixed;
+                    width: 30%;
+                    left: 0;
+                    right: 0;
+                }
