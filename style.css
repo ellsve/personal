@@ -113,12 +113,14 @@
     @media only screen and (max-device-width: 568px) {
         .textovervideo {
             position: fixed;
-            width: 100%;
             left: 0;
             right: 0;
         }
         .textovervideo ul {
-            font-size: 5vw;
+            font-size: 3vw;
+            display: flex;
+            justify-content: center;
+            align-content: center;
         }
         .textovervideo ul li {}
     }
