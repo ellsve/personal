@@ -56,10 +56,10 @@
     
     .textovervideo {
         z-index: 21;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        position: absolute;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
     
     .overlay {
@@ -81,14 +81,22 @@
         border-radius: 2px;
         border-style: solid;
         margin: 1em;
-        padding-left: 1em;
-        padding-right: 1em;
-        font-size: 2em;
+        padding: 1em;
     }
     
     .textovervideo ul li {
-        padding: inherit;
+        padding: 0em 3em;
         margin-right: 3em;
+        display: block;
+    }
+    
+    .textovervideo ul li h1 {
+        font-size: 4em;
+        padding: 0;
+    }
+    
+    .textovervideo ul li p {
+        font-size: 2em;
     }
     
     .arrow-down {
@@ -106,7 +114,6 @@
         .textovervideo {
             position: fixed;
             width: 100%;
-            text-align: center;
             left: 0;
             right: 0;
         }
